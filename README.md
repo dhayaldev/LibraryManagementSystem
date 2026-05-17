@@ -1,37 +1,118 @@
-# LibraryManagementSystem
-A simple Library Management System built in Java (JDBC + MySQL). This project allows the admin to manage books, issue/return books, and automatically calculate fines using SQL.
-# Features
-Admin Login (Password Protected)
-Book Management
-Add new books
-View available books
-Transactions
-Issue books to students
-Return books with automatic fine calculation
+# 📚 Library Management System
 
-# Fine Calculation (SQL-powered)
-₹5/day late (after 14 days borrowing period)
-Transaction History
-All issues/returns stored in database
+A Java-based Library Management System developed to manage books, users, issuing, and returning operations efficiently using SQL database integration.
 
-# Technologies Used
-Java (JDBC) – Core logic & DB connectivity
-MySQL – Database for books & transactions
-SQL Queries – Fine calculation with DATEDIFF()
+---
 
-# Example Run
-===== Welcome to Library Management System =====
-Enter Username: Saleem
-Enter Password: saleem123
-Login Successful! Welcome Saleem.
+## 🚀 Project Overview
 
---- Main Menu ---
-1. Add Book
-2. View Books
-3. Issue Book
-4. Return Book
-5. Exit
-Enter choice:
+The Library Management System is designed to automate and simplify traditional library operations. This project demonstrates core Java programming, database connectivity, CRUD operations, and backend application development concepts commonly used in enterprise applications.
 
-# Author
-Aswin Dhayal S
+---
+
+## 🛠️ Technologies Used
+
+- Java
+- JDBC
+- SQL / MySQL
+- HTML
+- CSS
+- Java Swing
+- Eclipse / IntelliJ IDEA
+
+---
+
+## ✨ Features
+
+- Add new books
+- Update book details
+- Delete books
+- Search books
+- Issue books to users
+- Return books
+- User management
+- Database connectivity using JDBC
+- Simple and user-friendly interface
+
+---
+
+## 🗂️ Project Structure
+
+```bash
+LibraryManagementSystem/
+│
+├── src/
+│   ├── database/
+│   ├── models/
+│   ├── services/
+│   └── ui/
+│
+├── sql/
+├── README.md
+└── pom.xml
+```
+
+---
+
+## ⚙️ How to Run the Project
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/dhayaldev/LibraryManagementSystem.git
+```
+
+### 2️⃣ Open in IDE
+
+Open the project using:
+- Eclipse
+- IntelliJ IDEA
+
+### 3️⃣ Configure Database
+
+- Create a MySQL database
+- Import the SQL file
+- Update database username and password in the configuration file
+
+### 4️⃣ Run the Application
+
+Run the main Java file from the IDE.
+
+---
+
+## 🧠 Concepts Implemented
+
+- Object-Oriented Programming (OOP)
+- JDBC Connectivity
+- SQL Queries
+- CRUD Operations
+- Exception Handling
+- File Handling
+- Modular Programming
+
+---
+
+## 📌 Future Enhancements
+
+- Authentication & Authorization
+- Fine calculation system
+- Online book reservation
+- Spring Boot integration
+- REST API development
+- React frontend integration
+
+---
+
+## 👨‍💻 Author
+
+**Aswin Dhayal S**
+
+- GitHub: https://github.com/dhayaldev
+- LinkedIn: https://www.linkedin.com/in/aswin-dhayal-s
+
+---
+
+## ⭐ Demo / Working Prototype
+
+GitHub Repository:
+https://github.com/dhayaldev/LibraryManagementSystem
